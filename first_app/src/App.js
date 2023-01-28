@@ -1,6 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
+function Test(){
+  return(
+    <p>Here is all what you need to work with</p>
+  )
+}
+
 function App() {
   return (
     <div className="App">
@@ -9,6 +15,7 @@ function App() {
       <p>
         Enjoy the magic of Jenkins - 2023
       </p>
+      <Test />
     </div>
   );
 }
